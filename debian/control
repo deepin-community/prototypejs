@@ -1,0 +1,19 @@
+Source: prototypejs
+Section: web
+Priority: optional
+Maintainer: Frank Habermann <lordlamer@lordlamer.de>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+Homepage: http://www.prototypejs.org/
+
+Package: libjs-prototype
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: javascript-common
+Description: JavaScript Framework for dynamic web applications
+ Prototype is a JavaScript Framework that aims to ease development of dynamic
+ web applications.
+ .
+ Featuring a unique, easy-to-use toolkit for class-driven development and the
+ nicest Ajax library around, Prototype is quickly becoming the codebase of
+ choice for web application developers everywhere.

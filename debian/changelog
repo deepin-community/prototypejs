@@ -1,0 +1,117 @@
+prototypejs (1.7.1-3.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 00:32:59 +0100
+
+prototypejs (1.7.1-3) unstable; urgency=low
+
+  * Reorder JSON regexp class to unbreak on Opera 9 (Closes: #647596)
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Tue, 28 May 2013 20:34:00 +0200
+
+prototypejs (1.7.1-2) unstable; urgency=low
+
+  * fixed wrong symlinks to prototypejs (Closes: #709770)
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Sun, 26 May 2013 20:55:00 +0200
+
+prototypejs (1.7.1-1) unstable; urgency=low
+
+  * New upstream version
+  * changed standards version to 3.9.4
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Fri, 24 May 2013 22:47:00 +0200
+
+prototypejs (1.7.0-2) unstable; urgency=low
+
+  * push package to unstable
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Sun, 06 Mar 2011 20:48:00 +0200
+
+prototypejs (1.7.0-1) experimental; urgency=low
+
+  * New upstream version
+  * changed standards version to 3.9.1
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Thu, 30 Dec 2010 20:59:00 +0200
+
+prototypejs (1.6.1-1) unstable; urgency=low
+
+  * New upstream version
+    - Full compatibility with new browsers
+    - Element metadata storage
+    - New mouse events
+    - Improved performance and housekeeping
+    - Built with Sprockets
+    - Inline documentation with PDoc
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Mon, 07 Sep 2009 21:43:00 +0200
+
+prototypejs (1.6.0.3-2) unstable; urgency=low
+
+  [ Daniel Baumann ]
+  * Prefixing debhelper files with package name.
+  * Minimizing rules file.
+  * Updating year in copyright file.
+  * Updating package to standards version 3.8.3.
+  * Removing vcs fields.
+
+  [ Frank Habermann ]
+  * New maintainer, taking over package from Daniel
+
+ -- Frank Habermann <lordlamer@lordlamer.de>  Wed, 26 Aug 2009 20:57:00 +0200
+
+prototypejs (1.6.0.3-1) unstable; urgency=low
+
+  [ Marcelo Jorge Vieira (metal) ]
+  * Added watch file
+
+  [ Daniel Baumann ]
+  * Removing line break in watch file.
+  * Updating to standards 3.8.0.
+  * Updating package to debhelper 7.
+  * Merging upstream version 1.6.0.3.
+  * Updating links file for new upstream version.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 12 Oct 2008 18:45:00 +0200
+
+prototypejs (1.6.0.2-4) unstable; urgency=low
+
+  [ Steve Kemp ]
+  * Added myself to uploaders field
+
+  [ Daniel Baumann ]
+  * Removing outdated conficts/replaces.
+  * Updating vcs fields in control file.
+  * Setting maintainer field to javascript group.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 10 May 2008 19:09:00 +0200
+
+prototypejs (1.6.0.2-3) unstable; urgency=low
+
+  * Downgrading relation to javascript-common from depends to
+    recommends.
+  * Changing license of the debian files to same license as upstream.
+  * Adding README.Debian.
+  * Renaming binary package to libjs-prototype.
+  * Adding dependency against javascript-common.
+  * Adding Marcelo as comaintainer.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 30 Mar 2008 00:22:00 +0100
+
+prototypejs (1.6.0.2-2) unstable; urgency=low
+
+  * Adding vcs fields in control.
+  * Rewriting copyright in machine-interpretable format.
+  * Replacing install target in rules with debhelper files.
+  * Reordering targets in rules.
+
+ -- Daniel Baumann <daniel@debian.org>  Sun, 24 Feb 2008 21:31:00 +0100
+
+prototypejs (1.6.0.2-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 16 Feb 2008 09:13:00 +0100
